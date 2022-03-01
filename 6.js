@@ -1,12 +1,12 @@
 console.log("Задание №6 \n");
-let kol,i, stringg;
+let kol,i, string;
 kol = prompt('Количесво овец');
-i=1;
-stringg="";
-while(i<=kol)
+i = 1;
+string = "";
+while(i <= kol)
 {
-    stringg += i + "овечка... ";
+    string += i + "овечка... ";
     i++;
 }
 
-console.log(stringg);
+console.log(string);

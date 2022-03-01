@@ -24,30 +24,30 @@ console.log(typeof(2 != 1));
 // Фактический: boolean
 
 
-console.log(typeof("сыр" + "ы"));
-// Предположение: string
-// Фактический: string
+console.log("сыр" + "ы");
+// Предположение: сыры
+// Фактический: сыры
 
-console.log(typeof("сыр" - "ы"));
+console.log("сыр" - "ы");
 // Предположение: NaN
-// Фактический: number
+// Фактический: NaN
 
-console.log(typeof("2" + "4"));
-// Предположение: string
-// Фактический: string
+console.log("2" + "4");
+// Предположение: 24
+// Фактический: 24
 
-console.log(typeof("2" - "4"));
+console.log("2" - "4");
 // Предположение: NaN
-// Фактический: number
+// Фактический: NaN
 
-console.log(typeof("Сэм" + 5));
-// Предположение: string
-// Фактический: string
+console.log("Сэм" + 5);
+// Предположение: Сэм5
+// Фактический: Сэм5
 
-console.log(typeof("Сэм" - 5));
+console.log("Сэм" - 5);
 // Предположение:  NaN
-// Фактический: number
+// Фактический: NaN
 
-console.log(typeof(99 * "шары"));
+console.log(99 * "шары");
 // Предположение:  NaN
-// Фактический: number
+// Фактический: NaN
